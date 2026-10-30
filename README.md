@@ -87,7 +87,7 @@ Payload generators for testing defenses. All payloads are derived from real CVEs
 Runs automated attack campaigns against a shield configuration and generates detection rate reports:
 
 ```bash
-python -m attacks.cli run --shields shield.yaml --output report.json
+python -m attacks.cli run --target shield.yaml --output ./red_team_reports
 ```
 
 ## Research
